@@ -25,7 +25,7 @@ fn part1(input: &str) -> Result<()> {
         }
     }
 
-    println!("Valid: {valid}");
+    println!("Valid TLS: {valid}");
 
     Ok(())
 }
@@ -62,7 +62,7 @@ fn part2(input: &str) -> Result<()> {
         }
     }
 
-    println!("Valid: {valid}");
+    println!("Valid SSL: {valid}");
 
     Ok(())
 }
